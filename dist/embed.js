@@ -93,7 +93,7 @@
    * @param {object} parameters
    */
   function buildIframeUrl(parameters) {
-    var url = parameters.baseUrl || 'https://flat-embed.com';
+    var url = parameters.baseUrl || 'http://localhost:3000/proxy';
 
     // Score id or blank embed
     url += '/' + (parameters.score || 'blank');

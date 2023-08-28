@@ -4,7 +4,7 @@
  * @param {object} parameters
  */
 export function buildIframeUrl(parameters) {
-  let url = (parameters.baseUrl || 'https://flat-embed.com');
+  let url = (parameters.baseUrl || 'http://localhost:3000/proxy');
 
   // Score id or blank embed
   url += '/' + (parameters.score || 'blank');
